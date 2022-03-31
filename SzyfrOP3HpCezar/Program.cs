@@ -16,17 +16,15 @@ for (int i = 0; i < haslo.Length; i++)
     wartoscLitery = wartoscLitery + l;
     if (wartoscLitery <= 90)
     {
-         
+
         char wartoscLiterye = Convert.ToChar(wartoscLitery);
-        string wartosciLiteryeo = Char.ToString(wartoscLiterye);
-        Console.WriteLine(wartosciLiteryeo);
+        Console.WriteLine(wartoscLiterye);
     }
     else
     if (wartoscLitery > 90)
     {
         wartoscLitery = wartoscLitery - 26;
         char wartoscLiterye = Convert.ToChar(wartoscLitery);
-        string wartosciLiteryeo = Char.ToString(wartoscLiterye);
-        Console.WriteLine(wartosciLiteryeo);
+        Console.WriteLine(wartoscLiterye);
     } while (wartoscLitery > 90) ;
 }
